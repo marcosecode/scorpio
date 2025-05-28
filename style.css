@@ -63,7 +63,7 @@
   }
   .home{
     width: 100%;
-    background-image: url(https://media.discordapp.net/attachments/1351955282342707265/1376649480442478692/ezgif-5f2902f73594bf.gif?ex=6838127d&is=6836c0fd&hm=4842e997b8549a62046f95f42367c9da203b40f0177072d377c73b7be17dac56&=&width=1200&height=675);
+    background-image: url(imgs/ezgif-5f2902f73594bf.gif);
     background-attachment: fixed;
     background-size: cover;
     
@@ -121,7 +121,7 @@
   }
   .about{
     width: 100%;
-    background-image: url(imgs/slideshow1.jpg);
+    background-image: url(https://media.discordapp.net/attachments/1351955282342707265/1377316349323513908/slideshow1.jpg?ex=6838854e&is=683733ce&hm=7e8131bad8ecbf4aa429b6fd64fadf4d078131ac9b6b9dc5567f04f789ab067c&=&format=webp&width=1323&height=744);
 
   }
   .abt{
@@ -319,7 +319,7 @@
     margin-top: 10px;
   }
   .right {
-    background: url(imgs/grand-theft-auto-v-gta-5-6170.webp);
+    background: url(https://media.discordapp.net/attachments/1351955282342707265/1377315924520210542/grand-theft-auto-v-gta-5-6170.webp?ex=683884e9&is=68373369&hm=5f98bf2fd2d3b9821486b0514bfb23014d79119e77c3b13f45fab4aecbc8bbfc&=&format=webp&width=894&height=570);
     background-position: center;
     background-size: cover;
     
