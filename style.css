@@ -328,11 +328,14 @@
   /* Mobile Styles */
   @media (max-width: 768px) {
     .about{
-      background-image: url(imgs/slideshow1.jpg);
+      background-image: url(https://cdn.discordapp.com/attachments/1351955282342707265/1377316349323513908/slideshow1.jpg?ex=6838854e&is=683733ce&hm=7e8131bad8ecbf4aa429b6fd64fadf4d078131ac9b6b9dc5567f04f789ab067c);
       background-size: cover;
+      
     }
     .home{
-        background-image: url(imgs/ezgif-5f2902f73594bf.gif);
+        background-image: url(https://media.discordapp.net/attachments/1351955282342707265/1376649480442478692/ezgif-5f2902f73594bf.gif?ex=6838127d&is=6836c0fd&hm=4842e997b8549a62046f95f42367c9da203b40f0177072d377c73b7be17dac56&=&width=1200&height=675);
+        background-position: center;
+
     }
     .nav-links {
       position: absolute;
