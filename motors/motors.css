@@ -233,3 +233,11 @@
       margin-top: 15px;
     }
   }
+  .right{
+    background: url(https://media.discordapp.net/attachments/1351955282342707265/1377315924520210542/grand-theft-auto-v-gta-5-6170.webp?ex=683884e9&is=68373369&hm=5f98bf2fd2d3b9821486b0514bfb23014d79119e77c3b13f45fab4aecbc8bbfc&=&format=webp&width=894&height=570);
+    background-position: center;
+    background-size: cover;
+  }
+  .home{
+    background-image: url(https://media.discordapp.net/attachments/1351955282342707265/1377319731811454986/talon.jpg?ex=68388875&is=683736f5&hm=c3395cb5cd513747e56557c09f8736331a4465415517104ac84333557a260db5&=&format=webp&width=1848&height=465);
+  }
