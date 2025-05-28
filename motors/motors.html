@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="motors.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Scorpio Roleplay</title>
+  
+</head>
+<body>
+    <section class="home">
+        
+
+  <nav>
+    
+    <div class="logo"><img src="/imgs/logo scorpio.png" alt=""></div>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="nav-links" id="navLinks">
+      <a href="/index.html">Home</a>
+      <a href="/rules/rules.html">Rules</a>
+      <a href="/whitelist/whitelist.html">Whitelist</a>
+      <a href="/faq/faq.html">FAQ</a>
+      <a href="/houses/houses.html">Houses</a>
+      <a href="/motors/motors.html">Motors</a>
+    </div>
+  </nav>
+  <h1 class="tb">Motors</h1>
+</section>
+<div class="lk"><h2>Home <i class="fa-solid fa-angles-right"></i> Motors</h2></div>
+<section class="dd">
+  <h1 class="ty">Dealership Catalogue</h1>
+  <div class="anm">
+  
+    <div class="cfd"><img src="/imgs/481_BMX.jpg" alt="">
+    <h2>BMX</h2>
+  <p><span>Price</span>: 2500$</p></div>
+  
+  <div class="cfd"><img src="/imgs/462_Faggio.jpg" alt="">
+    <h2>FAGGIO</h2>
+  <p><span>Price</span>: 9500$</p></div>
+  
+  <div class="cfd" id="kmz"><img src="/imgs/468_Sanchez.jpg" alt="">
+    <h2>SANCHEZ</h2>
+  <p><span>Price</span>: 45000$</p></div>
+  
+  <div class="cfd"><img src="/imgs/463_Freeway.jpg" alt="">
+    <h2>FREEWAY</h2>
+  <p><span>Price</span>: 70000$</p></div>
+  
+  <div class="cfd"><img src="/imgs/burrito.jpg" alt="">
+    <h2>BURIITO</h2>
+  <p><span>Price</span>: 90000$</p></div>
+  
+  <div class="cfd"><img src="/imgs/426_Premier.jpg" alt="">
+    <h2>PREMIER</h2>
+  <p><span>Price</span>: 95000$</p></div>
+
+  
+  
+</div>
+</div>
+
+<p class="ajn">you can see more from <a href="https://discordapp.com/channels/1182846745026236517/1347324836942319616">here</a></p>
+
+</section>
+<section class="right">
+    
+  <div class="wrt">
+      <h2>Why Scorpio ?</h2>
+      <p>Because we don’t just offer a roleplay server, we offer a complete experience.
+        At Scorpio Roleplay, we focus on every detail to create a realistic, fair, and opportunity-rich environment for all players. <br> 
+        <br>
+        We stand out with a professional staff team, advanced systems, a respectful community, and an atmosphere that brings the world to life.
+        Here, you have the freedom to become whoever you want, and live your story, your way.</p>
+    </div>
+    <div class="hjk">
+      <h2>Important</h2>
+      <a href="/index.html">- Home</a> <br>
+      <a href="rules/rules.html">- Rules</a>
+    </div>
+    <div class="vcd">
+      <h2>Contact Us</h2>
+      <h4><a href="https://discord.gg/q4zjg3EwFc">https://discord.gg/q4zjg3EwFc</a></h4>
+      <h4><a href="#">scrpspprt@gmail.com</a></h4>
+    </div>
+
+    
+    
+  
+</section>
+<footer class="rt">
+  <p>Developed by <a href="https://www.instagram.com/rodri.__.44/?utm_source=ig_web_button_share_sheet" class="hsc">Rodrigo</a>.</p>
+  <p>© 2025 Scorpio Roleplay. All rights reserved.</p>
+
+</footer>
+
+  
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('open');
+      navLinks.classList.toggle('open');
+    });
+
+    document.querySelectorAll('.nav-links a').forEach(link =>
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('open');
+        navLinks.classList.remove('open');
+      })
+    );
+
+    document.querySelectorAll('.cvd details').forEach(detail => {
+    const content = detail.querySelector('.content');
+    detail.addEventListener('toggle', () => {
+      detail.classList.toggle('open', detail.open);
+    });
+  });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="faq.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Scorpio Roleplay</title>
+  
+</head>
+<body>
+    <section class="home">
+        
+
+  <nav>
+    
+    <div class="logo"><img src="/imgs/logo scorpio.png" alt=""></div>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="nav-links" id="navLinks">
+      <a href="/index.html">Home</a>
+      <a href="/rules/rules.html">Rules</a>
+      <a href="/whitelist/whitelist.html">Whitelist</a>
+      <a href="/faq/faq.html">FAQ</a>
+      <a href="/houses/houses.html">Houses</a>
+      <a href="/motors/motors.html">Motors</a>
+    </div>
+  </nav>
+  <h1 class="tb">Rules</h1>
+</section>
+<div class="lk"><h2>Home <i class="fa-solid fa-angles-right"></i> FAQ</h2></div>
+
+<section style=" background-color: rgb(92, 0, 0);  padding: 40px 20px; font-family: Arial, sans-serif;">
+  <h2 style="text-align: center; margin-bottom: 30px;">❓ Frequently Asked Questions (FAQ)</h2>
+
+  <details style="margin-bottom: 20px;">
+    <summary style="cursor: pointer; font-weight: bold;">1. How can I apply for the whitelist?</summary>
+    <p style="margin-top: 10px;">Simply visit our whitelist page and fill out the application form with accurate and honest information. Make sure to answer all required questions clearly.</p>
+  </details>
+
+  <details style="margin-bottom: 20px;">
+    <summary style="cursor: pointer; font-weight: bold;">2. How long does it take to get approved?</summary>
+    <p style="margin-top: 10px;">Whitelist applications are reviewed within 24 to 48 hours. In peak times, it may take slightly longer, so please be patient.</p>
+  </details>
+
+  <details style="margin-bottom: 20px;">
+    <summary style="cursor: pointer; font-weight: bold;">3. Do I need previous roleplay experience?</summary>
+    <p style="margin-top: 10px;">No prior experience is required. However, having basic knowledge of roleplay rules and behavior will improve your chances of getting approved.</p>
+  </details>
+
+  <details style="margin-bottom: 20px;">
+    <summary style="cursor: pointer; font-weight: bold;">4. What are the server rules?</summary>
+    <p style="margin-top: 10px;">All server members must follow our roleplay rules, which include respecting other players, avoiding powergaming, metagaming, and staying in character. Full rules are available on our Discord or website.</p>
+  </details>
+
+  <details style="margin-bottom: 20px;">
+    <summary style="cursor: pointer; font-weight: bold;">5. How can I support the server?</summary>
+    <p style="margin-top: 10px;">You can support us by boosting our Discord server, donating, or simply being an active and positive part of the community. Boosters will receive special recognition in our Supporters section.</p>
+  </details>
+
+  <details style="margin-bottom: 20px;">
+    <summary style="cursor: pointer; font-weight: bold;">6. What age do I need to be to join?</summary>
+    <p style="margin-top: 10px;">You must be at least 16 years old to join our server and apply for the whitelist.</p>
+  </details>
+
+  <details style="margin-bottom: 20px;">
+    <summary style="cursor: pointer; font-weight: bold;">7. What happens if my application is rejected?</summary>
+    <p style="margin-top: 10px;">If your application is rejected, don’t worry. You’ll receive feedback, and you’re welcome to reapply after making the necessary improvements.</p>
+  </details>
+
+  <details style="margin-bottom: 20px;">
+    <summary style="cursor: pointer; font-weight: bold;">8. How do I contact the staff for help?</summary>
+    <p style="margin-top: 10px;">You can reach our team through our Discord support channel. We’re always available to help with issues, questions, or concerns.</p>
+  </details>
+</section>
+
+<section class="right">
+    
+  <div class="wrt">
+      <h2>Why Scorpio ?</h2>
+      <p>Because we don’t just offer a roleplay server, we offer a complete experience.
+        At Scorpio Roleplay, we focus on every detail to create a realistic, fair, and opportunity-rich environment for all players. <br> 
+        <br>
+        We stand out with a professional staff team, advanced systems, a respectful community, and an atmosphere that brings the world to life.
+        Here, you have the freedom to become whoever you want, and live your story, your way.</p>
+    </div>
+    <div class="hjk">
+      <h2>Important</h2>
+      <a href="/index.html">- Home</a> <br>
+      <a href="rules/rules.html">- Rules</a>
+    </div>
+    <div class="vcd">
+      <h2>Contact Us</h2>
+      <h4><a href="https://discord.gg/q4zjg3EwFc">https://discord.gg/q4zjg3EwFc</a></h4>
+      <h4><a href="#">scrpspprt@gmail.com</a></h4>
+    </div>
+
+    
+    
+  
+</section>
+<footer class="rt">
+  <p>Developed by <a href="https://www.instagram.com/rodri.__.44/?utm_source=ig_web_button_share_sheet" class="hsc">Rodrigo</a>.</p>
+  <p>© 2025 Scorpio Roleplay. All rights reserved.</p>
+
+</footer>
+  
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('open');
+      navLinks.classList.toggle('open');
+    });
+
+    document.querySelectorAll('.nav-links a').forEach(link =>
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('open');
+        navLinks.classList.remove('open');
+      })
+    );
+
+    document.querySelectorAll('.cvd details').forEach(detail => {
+    const content = detail.querySelector('.content');
+    detail.addEventListener('toggle', () => {
+      detail.classList.toggle('open', detail.open);
+    });
+  });
+  </script>
+
+</body>
+</html>

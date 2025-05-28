@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Righteous&family=Rubik:ital,wght@0,300..900;1,300..900&family=Shadows+Into+Light&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Righteous", sans-serif;
+    background: #111;
+    color: white;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    position: relative;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100%;
+  }
+  .logo img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    margin: 0 auto;
+    
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+
+  .nav-links a:hover {
+    color: red;
+  }
+
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background: white;
+    border-radius: 3px;
+    transition: 0.4s;
+  }
+  .home{
+    width: 100%;
+    height: 300px;
+    background-image: url(/imgs/talon.jpg);
+    background-attachment: fixed;
+  }
+  .home .tb {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+  }
+  .lk{
+    padding: 15px;
+  }
+  .dd{
+    padding-bottom: 20px;
+    width: 100%;
+    background-color: #540000;
+    padding-top: 15px;
+  }
+
+  .ty{
+    text-align:center;
+    color: red;
+  }
+  .bh{
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .cfd{
+    height: 300px;
+    background-color: rgb(75, 75, 70);
+    width: 80%;
+    margin: 20px 10%;
+    text-align: center;
+    color: black;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .cfd img{
+    width: 100%;
+    height: 200px;
+  }
+  .cfd h2{
+    margin-top: 10px;
+  }
+  .cfd span{
+    color: red;
+  }
+  
+  .kmz{
+    width: 100%;
+  }
+  .right{
+    width: 100%;
+    background-color: #6f0000;
+    padding-bottom: 15px;
+    
+  }
+  footer{
+    background-color: #6f0000;
+  }
+  .wrt , .hjk{
+    padding-top: 15px 0;
+    margin: 15px;
+    
+  }
+  .right h2{
+    margin-bottom: 10px;
+    color: red;
+  }
+  .right a{
+    color: blue;
+    text-decoration: solid;
+  }
+  .hsc{
+    color: red;
+    text-decoration: underline;
+  }
+  .rt p{
+    text-align: center;
+  }
+  .cnh h4{
+    text-align: center;
+    text-decoration: dashed;
+    margin-top: 10px;
+  }
+  .vcd {
+    margin-left: 15px;
+  }
+  .vcd a{
+    color: white;
+    margin-top: 10px;
+  }
+  .right {
+    background: url(/imgs/grand-theft-auto-v-gta-5-6170.webp);
+    background-position: center;
+    background-size: cover;
+    
+  }
+
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    
+    .home{
+        background-image: url(/imgs/talon.jpg);
+    }
+    .nav-links {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: #222;
+      flex-direction: column;
+      align-items: center;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+    }
+
+    .nav-links.open {
+      max-height: 300px;
+    }
+
+    .hamburger {
+      display: flex;
+    }
+
+    .hamburger.open span:nth-child(1) {
+      transform: rotate(45deg) translateY(8px);
+    }
+
+    .hamburger.open span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .hamburger.open span:nth-child(3) {
+      transform: rotate(-45deg) translateY(-8px);
+    }
+    .nav-links h4{
+      background: green;
+      padding: 5px 20px;
+      border-radius: 5px;
+    }
+  }
+  @media (min-width: 1024px){
+    
+    .cfd{
+      width: 270px;
+      margin: 20px 20px;
+    }
+    .anm{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 10%;
+    }
+    .right{
+      display: flex;
+
+    }
+    .right .wrt{
+      width: 400px;
+      margin-right: 200px;
+    }
+    .wrt{
+      position: relative;
+    }
+    .vcd{
+      margin-left: 90px;
+      margin-top: 15px;
+    }
+  }
